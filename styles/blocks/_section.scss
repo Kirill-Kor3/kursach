@@ -1,0 +1,25 @@
+.section-example {
+  padding-top: 200px;
+  display: grid;
+  row-gap: 80px;
+  margin-bottom: 280px;
+
+  &__header {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+
+    &-title {
+      margin-bottom: 15px;
+    }
+
+    &-item {
+      font-weight: 300;
+    }
+  }
+}

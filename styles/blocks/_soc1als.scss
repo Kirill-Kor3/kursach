@@ -1,0 +1,8 @@
+@use '../media' as *;
+
+.soc1als {
+  &__list {
+    display: flex;
+    column-gap: 44px;
+  }
+}

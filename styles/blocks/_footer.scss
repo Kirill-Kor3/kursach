@@ -1,0 +1,29 @@
+.footer {
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  background-color: #f6f2ea;
+
+  &__extra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+    padding-block: 80px;
+
+    &-menu {
+      &-list {
+        display: flex;
+      }
+
+      &-item {
+        &:not(:last-child) {
+          &::after {
+            content: '|';
+            margin-inline: 11px;
+          }
+        }
+      }
+    }
+  }
+}

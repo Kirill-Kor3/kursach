@@ -1,0 +1,32 @@
+.section-answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 250px;
+
+  &__header {
+    &-title {
+      font-size: 70px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: start;
+    gap: 15px;
+
+    &-num {
+      font-size: 40px;
+      background-color: #fce2cf;
+      font-weight: bold;
+      padding: 10px 15px;
+      border-radius: 20px;
+    }
+  }
+}

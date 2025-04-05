@@ -1,0 +1,20 @@
+.section-users {
+  margin-bottom: 100px;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
